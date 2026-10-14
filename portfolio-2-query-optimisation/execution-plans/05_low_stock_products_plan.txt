@@ -1,0 +1,32 @@
+                                                                QUERY PLAN                                                                
+------------------------------------------------------------------------------------------------------------------------------------------
+ Sort  (cost=88.96..90.38 rows=567 width=664) (actual time=0.156..0.158 rows=2.00 loops=1)
+   Sort Key: i.quantity_in_stock, p.product_name
+   Sort Method: quicksort  Memory: 25kB
+   Buffers: shared hit=9
+   ->  Hash Join  (cost=29.25..63.03 rows=567 width=664) (actual time=0.116..0.118 rows=2.00 loops=1)
+         Hash Cond: (i.product_id = p.product_id)
+         Buffers: shared hit=3
+         ->  Seq Scan on inventory i  (cost=0.00..31.25 rows=567 width=12) (actual time=0.015..0.016 rows=2.00 loops=1)
+               Filter: (quantity_in_stock < 30)
+               Rows Removed by Filter: 2
+               Buffers: shared hit=1
+         ->  Hash  (cost=27.75..27.75 rows=120 width=660) (actual time=0.067..0.068 rows=4.00 loops=1)
+               Buckets: 1024  Batches: 1  Memory Usage: 9kB
+               Buffers: shared hit=2
+               ->  Hash Join  (cost=12.70..27.75 rows=120 width=660) (actual time=0.061..0.064 rows=4.00 loops=1)
+                     Hash Cond: (c.category_id = p.category_id)
+                     Buffers: shared hit=2
+                     ->  Seq Scan on categories c  (cost=0.00..12.80 rows=280 width=226) (actual time=0.008..0.008 rows=3.00 loops=1)
+                           Buffers: shared hit=1
+                     ->  Hash  (cost=11.20..11.20 rows=120 width=450) (actual time=0.028..0.028 rows=4.00 loops=1)
+                           Buckets: 1024  Batches: 1  Memory Usage: 9kB
+                           Buffers: shared hit=1
+                           ->  Seq Scan on products p  (cost=0.00..11.20 rows=120 width=450) (actual time=0.004..0.005 rows=4.00 loops=1)
+                                 Buffers: shared hit=1
+ Planning:
+   Buffers: shared hit=264
+ Planning Time: 0.807 ms
+ Execution Time: 0.262 ms
+(28 rows)
+

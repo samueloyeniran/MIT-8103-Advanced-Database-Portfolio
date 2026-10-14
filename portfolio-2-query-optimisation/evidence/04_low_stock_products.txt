@@ -1,0 +1,6 @@
+ product_id |  product_name  | category_name | quantity_in_stock |   price   
+------------+----------------+---------------+-------------------+-----------
+          3 | Laptop 14-inch | Computing     |                10 | 650000.00
+          4 | Running Shoes  | Fashion       |                25 |  45000.00
+(2 rows)
+

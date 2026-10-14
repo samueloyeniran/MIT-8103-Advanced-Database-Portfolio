@@ -1,0 +1,8 @@
+ customer_id | first_name | last_name | order_id |          order_date           | order_status |  product_name  | quantity | unit_price | payment_method | payment_status | payment_amount 
+-------------+------------+-----------+----------+-------------------------------+--------------+----------------+----------+------------+----------------+----------------+----------------
+           1 | Ada        | Okafor    |        1 | 2026-10-12 18:19:48.461144+01 | confirmed    | USB-C Charger  |        1 |   12000.00 | card           | successful     |       20500.00
+           1 | Ada        | Okafor    |        1 | 2026-10-12 18:19:48.461144+01 | confirmed    | Wireless Mouse |        1 |    8500.00 | card           | successful     |       20500.00
+           2 | Tunde      | Bello     |        2 | 2026-10-12 18:19:48.461144+01 | processing   | Laptop 14-inch |        1 |  650000.00 | bank_transfer  | successful     |      650000.00
+           3 | Mariam     | Ibrahim   |        3 | 2026-10-12 18:19:48.461144+01 | pending      | Running Shoes  |        2 |   45000.00 | card           | pending        |       90000.00
+(4 rows)
+

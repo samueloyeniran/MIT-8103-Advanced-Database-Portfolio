@@ -1,0 +1,7 @@
+ customer_id | first_name | last_name | order_id |          order_date           | order_status | total_amount 
+-------------+------------+-----------+----------+-------------------------------+--------------+--------------
+           1 | Ada        | Okafor    |        1 | 2026-10-12 18:19:48.461144+01 | confirmed    |     20500.00
+           2 | Tunde      | Bello     |        2 | 2026-10-12 18:19:48.461144+01 | processing   |    650000.00
+           3 | Mariam     | Ibrahim   |        3 | 2026-10-12 18:19:48.461144+01 | pending      |     90000.00
+(3 rows)
+

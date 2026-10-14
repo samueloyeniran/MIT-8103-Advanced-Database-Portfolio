@@ -1,0 +1,22 @@
+                                                       QUERY PLAN                                                       
+------------------------------------------------------------------------------------------------------------------------
+ Sort  (cost=12.08..12.09 rows=3 width=534) (actual time=0.141..0.143 rows=3.00 loops=1)
+   Sort Key: o.order_date DESC, o.order_id
+   Sort Method: quicksort  Memory: 25kB
+   Buffers: shared hit=8
+   ->  Hash Join  (cost=1.07..12.06 rows=3 width=534) (actual time=0.066..0.069 rows=3.00 loops=1)
+         Hash Cond: (c.customer_id = o.customer_id)
+         Buffers: shared hit=2
+         ->  Seq Scan on customers c  (cost=0.00..10.70 rows=70 width=444) (actual time=0.016..0.017 rows=3.00 loops=1)
+               Buffers: shared hit=1
+         ->  Hash  (cost=1.03..1.03 rows=3 width=98) (actual time=0.026..0.027 rows=3.00 loops=1)
+               Buckets: 1024  Batches: 1  Memory Usage: 9kB
+               Buffers: shared hit=1
+               ->  Seq Scan on orders o  (cost=0.00..1.03 rows=3 width=98) (actual time=0.016..0.017 rows=3.00 loops=1)
+                     Buffers: shared hit=1
+ Planning:
+   Buffers: shared hit=173 read=1
+ Planning Time: 325.475 ms
+ Execution Time: 0.243 ms
+(18 rows)
+

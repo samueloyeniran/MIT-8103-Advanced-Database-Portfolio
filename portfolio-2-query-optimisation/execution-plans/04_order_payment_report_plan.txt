@@ -1,0 +1,53 @@
+                                                                QUERY PLAN                                                                
+------------------------------------------------------------------------------------------------------------------------------------------
+ Incremental Sort  (cost=13447.52..40986.17 rows=71567 width=1108) (actual time=0.210..0.213 rows=4.00 loops=1)
+   Sort Key: o.order_id, p.product_name
+   Presorted Key: o.order_id
+   Full-sort Groups: 1  Sort Method: quicksort  Average Memory: 25kB  Peak Memory: 25kB
+   Buffers: shared hit=8
+   ->  Merge Join  (cost=125.51..143.37 rows=71567 width=1108) (actual time=0.174..0.180 rows=4.00 loops=1)
+         Merge Cond: (o.order_id = oi.order_id)
+         Buffers: shared hit=5
+         ->  Merge Left Join  (cost=31.18..32.17 rows=190 width=670) (actual time=0.099..0.102 rows=3.00 loops=1)
+               Merge Cond: (o.order_id = pay.order_id)
+               Buffers: shared hit=3
+               ->  Sort  (cost=12.08..12.09 rows=3 width=518) (actual time=0.073..0.074 rows=3.00 loops=1)
+                     Sort Key: o.order_id
+                     Sort Method: quicksort  Memory: 25kB
+                     Buffers: shared hit=2
+                     ->  Hash Join  (cost=1.07..12.06 rows=3 width=518) (actual time=0.055..0.057 rows=3.00 loops=1)
+                           Hash Cond: (c.customer_id = o.customer_id)
+                           Buffers: shared hit=2
+                           ->  Seq Scan on customers c  (cost=0.00..10.70 rows=70 width=444) (actual time=0.015..0.015 rows=3.00 loops=1)
+                                 Buffers: shared hit=1
+                           ->  Hash  (cost=1.03..1.03 rows=3 width=82) (actual time=0.019..0.019 rows=3.00 loops=1)
+                                 Buckets: 1024  Batches: 1  Memory Usage: 9kB
+                                 Buffers: shared hit=1
+                                 ->  Seq Scan on orders o  (cost=0.00..1.03 rows=3 width=82) (actual time=0.012..0.013 rows=3.00 loops=1)
+                                       Buffers: shared hit=1
+               ->  Sort  (cost=19.09..19.57 rows=190 width=160) (actual time=0.023..0.023 rows=3.00 loops=1)
+                     Sort Key: pay.order_id
+                     Sort Method: quicksort  Memory: 25kB
+                     Buffers: shared hit=1
+                     ->  Seq Scan on payments pay  (cost=0.00..11.90 rows=190 width=160) (actual time=0.006..0.007 rows=3.00 loops=1)
+                           Buffers: shared hit=1
+         ->  Sort  (cost=94.34..97.16 rows=1130 width=446) (actual time=0.074..0.074 rows=4.00 loops=1)
+               Sort Key: oi.order_id
+               Sort Method: quicksort  Memory: 25kB
+               Buffers: shared hit=2
+               ->  Hash Join  (cost=12.70..37.03 rows=1130 width=446) (actual time=0.049..0.051 rows=4.00 loops=1)
+                     Hash Cond: (oi.product_id = p.product_id)
+                     Buffers: shared hit=2
+                     ->  Seq Scan on order_items oi  (cost=0.00..21.30 rows=1130 width=36) (actual time=0.011..0.011 rows=4.00 loops=1)
+                           Buffers: shared hit=1
+                     ->  Hash  (cost=11.20..11.20 rows=120 width=426) (actual time=0.010..0.010 rows=4.00 loops=1)
+                           Buckets: 1024  Batches: 1  Memory Usage: 9kB
+                           Buffers: shared hit=1
+                           ->  Seq Scan on products p  (cost=0.00..11.20 rows=120 width=426) (actual time=0.006..0.006 rows=4.00 loops=1)
+                                 Buffers: shared hit=1
+ Planning:
+   Buffers: shared hit=308
+ Planning Time: 1.654 ms
+ Execution Time: 0.369 ms
+(49 rows)
+
