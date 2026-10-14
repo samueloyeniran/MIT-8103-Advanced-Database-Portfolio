@@ -1,0 +1,8 @@
+ order_id | customer_name  | order_status |  product_name  | quantity | unit_price | line_total 
+----------+----------------+--------------+----------------+----------+------------+------------
+        1 | Ada Okafor     | confirmed    | USB-C Charger  |        1 |   12000.00 |   12000.00
+        1 | Ada Okafor     | confirmed    | Wireless Mouse |        1 |    8500.00 |    8500.00
+        2 | Tunde Bello    | processing   | Laptop 14-inch |        1 |  650000.00 |  650000.00
+        3 | Mariam Ibrahim | pending      | Running Shoes  |        2 |   45000.00 |   90000.00
+(4 rows)
+

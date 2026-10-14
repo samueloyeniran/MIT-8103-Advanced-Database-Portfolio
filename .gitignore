@@ -1,0 +1,19 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.ssh/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies and cache
+node_modules/
+__pycache__/
+*.py[cod]

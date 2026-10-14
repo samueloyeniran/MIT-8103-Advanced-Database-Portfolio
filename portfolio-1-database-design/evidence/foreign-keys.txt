@@ -1,0 +1,11 @@
+ table_name  | column_name | referenced_table | referenced_column 
+-------------+-------------+------------------+-------------------
+ deliveries  | order_id    | orders           | order_id
+ inventory   | product_id  | products         | product_id
+ order_items | order_id    | orders           | order_id
+ order_items | product_id  | products         | product_id
+ orders      | customer_id | customers        | customer_id
+ payments    | order_id    | orders           | order_id
+ products    | category_id | categories       | category_id
+(7 rows)
+

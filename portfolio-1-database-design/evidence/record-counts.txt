@@ -1,0 +1,12 @@
+ table_name  | record_count 
+-------------+--------------
+ categories  |            3
+ customers   |            3
+ deliveries  |            2
+ inventory   |            4
+ order_items |            4
+ orders      |            3
+ payments    |            3
+ products    |            4
+(8 rows)
+

@@ -1,0 +1,13 @@
+ table_name  |          constraint_name          |                                                                                                             constraint_definition                                                                                                             
+-------------+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ deliveries  | deliveries_delivery_status_check  | CHECK (((delivery_status)::text = ANY ((ARRAY['pending'::character varying, 'dispatched'::character varying, 'in_transit'::character varying, 'delivered'::character varying, 'failed'::character varying])::text[])))
+ inventory   | inventory_quantity_in_stock_check | CHECK ((quantity_in_stock >= 0))
+ order_items | order_items_quantity_check        | CHECK ((quantity > 0))
+ order_items | order_items_unit_price_check      | CHECK ((unit_price >= (0)::numeric))
+ orders      | orders_status_check               | CHECK (((status)::text = ANY ((ARRAY['pending'::character varying, 'confirmed'::character varying, 'processing'::character varying, 'shipped'::character varying, 'delivered'::character varying, 'cancelled'::character varying])::text[])))
+ orders      | orders_total_amount_check         | CHECK ((total_amount >= (0)::numeric))
+ payments    | payments_amount_check             | CHECK ((amount > (0)::numeric))
+ payments    | payments_status_check             | CHECK (((status)::text = ANY ((ARRAY['pending'::character varying, 'successful'::character varying, 'failed'::character varying, 'refunded'::character varying])::text[])))
+ products    | products_price_check              | CHECK ((price >= (0)::numeric))
+(9 rows)
+

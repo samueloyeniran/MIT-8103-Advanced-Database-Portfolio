@@ -1,0 +1,8 @@
+ product_id |  product_name  | category_name |   price   | quantity_in_stock 
+------------+----------------+---------------+-----------+-------------------
+          1 | Wireless Mouse | Electronics   |   8500.00 |                50
+          2 | USB-C Charger  | Electronics   |  12000.00 |                30
+          3 | Laptop 14-inch | Computing     | 650000.00 |                10
+          4 | Running Shoes  | Fashion       |  45000.00 |                25
+(4 rows)
+

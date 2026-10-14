@@ -1,0 +1,18 @@
+ table_name  | constraint_type |           constraint_name           
+-------------+-----------------+-------------------------------------
+ categories  | PRIMARY KEY     | categories_pkey
+ categories  | UNIQUE          | categories_category_name_key
+ customers   | PRIMARY KEY     | customers_pkey
+ customers   | UNIQUE          | customers_email_key
+ deliveries  | PRIMARY KEY     | deliveries_pkey
+ deliveries  | UNIQUE          | deliveries_order_id_key
+ inventory   | PRIMARY KEY     | inventory_pkey
+ order_items | PRIMARY KEY     | order_items_pkey
+ order_items | UNIQUE          | order_items_order_id_product_id_key
+ orders      | PRIMARY KEY     | orders_pkey
+ payments    | PRIMARY KEY     | payments_pkey
+ payments    | UNIQUE          | payments_payment_reference_key
+ products    | PRIMARY KEY     | products_pkey
+ products    | UNIQUE          | products_sku_key
+(14 rows)
+
