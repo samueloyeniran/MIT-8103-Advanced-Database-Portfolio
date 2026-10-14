@@ -1,0 +1,36 @@
+Portfolio 3: Concurrent Inventory Update Experiment
+Database: naijamart
+Table: concurrency_demo
+
+Initial state:
+Product ID: 1
+Product name: Concurrency Test Product
+Stock: 1
+
+Session A:
+1. Began a transaction.
+2. Executed a conditional stock decrement:
+   UPDATE concurrency_demo
+   SET stock = stock - 1
+   WHERE product_id = 1 AND stock > 0;
+3. The update affected one row.
+4. Kept the transaction open, holding the row lock.
+
+Session B:
+1. Began a transaction.
+2. Executed the same conditional stock decrement.
+3. The competing update waited while Session A held the row lock.
+
+After Session A committed:
+Session B's update resumed. The final stock query showed
+stock = 0.
+
+Interpretation:
+The conditional update ensures that a transaction can decrement
+stock only when stock is greater than zero. PostgreSQL's row-level
+locking coordinates the competing updates.
+
+Evidence note:
+The final stock value of zero was captured in
+concurrency-final-stock.txt. This file documents the experiment;
+it is not a raw terminal transcript.

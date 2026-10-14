@@ -1,0 +1,31 @@
+Portfolio 3: READ COMMITTED Isolation Experiment
+Database: naijamart
+Isolation level: READ COMMITTED
+
+Session A:
+1. Began a transaction.
+2. Set the transaction isolation level to READ COMMITTED.
+3. Queried isolation_demo for demo_id = 1.
+4. Observed amount = 200.00.
+
+Session B:
+1. Updated isolation_demo for demo_id = 1 to amount = 250.00.
+2. Committed the update successfully.
+
+Session A:
+1. Started a new transaction after recovering from an earlier
+   aborted transaction.
+2. Queried isolation_demo for demo_id = 1.
+3. Observed amount = 250.00.
+4. Committed the transaction.
+
+Interpretation:
+The subsequent query observed the value committed by Session B.
+Under PostgreSQL READ COMMITTED, each query sees data committed
+before that query begins.
+
+Evidence note:
+This is a written experiment log based on the observed session
+results, not a raw terminal transcript.
+
+

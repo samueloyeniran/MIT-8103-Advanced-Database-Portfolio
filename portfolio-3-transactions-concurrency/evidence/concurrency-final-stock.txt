@@ -1,0 +1,5 @@
+ product_id |       product_name       | stock 
+------------+--------------------------+-------
+          1 | Concurrency Test Product |     0
+(1 row)
+

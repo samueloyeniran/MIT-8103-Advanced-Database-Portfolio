@@ -1,0 +1,7 @@
+CREATE TABLE
+INSERT 0 0
+ demo_id |          description           | amount 
+---------+--------------------------------+--------
+       1 | Isolation demonstration record | 250.00
+(1 row)
+

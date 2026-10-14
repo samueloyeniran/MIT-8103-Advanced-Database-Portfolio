@@ -1,0 +1,13 @@
+BEGIN
+UPDATE 1
+ demo_id |         description          | amount 
+---------+------------------------------+--------
+       1 | Initial demonstration record | 999.00
+(1 row)
+
+ROLLBACK
+ demo_id |         description          | amount 
+---------+------------------------------+--------
+       1 | Initial demonstration record | 150.00
+(1 row)
+
