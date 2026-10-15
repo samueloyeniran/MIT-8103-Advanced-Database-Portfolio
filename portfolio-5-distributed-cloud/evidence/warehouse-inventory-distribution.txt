@@ -1,0 +1,20 @@
+     city      |  product_name  | quantity_in_stock 
+---------------+----------------+-------------------
+ Lagos         | Wireless Mouse |                20
+ Lagos         | USB-C Charger  |                12
+ Lagos         | Laptop 14-inch |                 4
+ Lagos         | Running Shoes  |                10
+ Abuja         | Wireless Mouse |                12
+ Abuja         | USB-C Charger  |                 8
+ Abuja         | Laptop 14-inch |                 2
+ Abuja         | Running Shoes  |                 5
+ Port Harcourt | Wireless Mouse |                10
+ Port Harcourt | USB-C Charger  |                 6
+ Port Harcourt | Laptop 14-inch |                 2
+ Port Harcourt | Running Shoes  |                 6
+ Ado-Ekiti     | Wireless Mouse |                 8
+ Ado-Ekiti     | USB-C Charger  |                 4
+ Ado-Ekiti     | Laptop 14-inch |                 2
+ Ado-Ekiti     | Running Shoes  |                 4
+(16 rows)
+

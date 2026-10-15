@@ -1,0 +1,8 @@
+ product_id |  product_name  | original_total | warehouse_total | totals_match 
+------------+----------------+----------------+-----------------+--------------
+          1 | Wireless Mouse |             50 |              50 | t
+          2 | USB-C Charger  |             30 |              30 | t
+          3 | Laptop 14-inch |             10 |              10 | t
+          4 | Running Shoes  |             25 |              25 | t
+(4 rows)
+
