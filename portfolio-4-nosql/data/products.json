@@ -1,0 +1,3004 @@
+[
+  {
+    "productId": 1,
+    "name": "Laptop Model 1",
+    "category": "Computing",
+    "price": 16379,
+    "stock": 25,
+    "attributes": {
+      "model": "NM-0001",
+      "warranty": "6 months",
+      "ram": "16GB",
+      "storage": "512GB SSD"
+    },
+    "tags": [
+      "computing",
+      "laptop"
+    ]
+  },
+  {
+    "productId": 2,
+    "name": "Smartphone Model 2",
+    "category": "Phones",
+    "price": 10758,
+    "stock": 14,
+    "attributes": {
+      "model": "NM-0002",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "smartphone"
+    ]
+  },
+  {
+    "productId": 3,
+    "name": "Sneakers Model 3",
+    "category": "Fashion",
+    "price": 9137,
+    "stock": 21,
+    "attributes": {
+      "model": "NM-0003",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "sneakers"
+    ]
+  },
+  {
+    "productId": 4,
+    "name": "Blender Model 4",
+    "category": "Home Appliances",
+    "price": 17516,
+    "stock": 28,
+    "attributes": {
+      "model": "NM-0004",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "blender"
+    ]
+  },
+  {
+    "productId": 5,
+    "name": "Watch Model 5",
+    "category": "Accessories",
+    "price": 9895,
+    "stock": 35,
+    "attributes": {
+      "model": "NM-0005",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "watch"
+    ]
+  },
+  {
+    "productId": 6,
+    "name": "Monitor Model 6",
+    "category": "Computing",
+    "price": 23274,
+    "stock": 42,
+    "attributes": {
+      "model": "NM-0006",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "monitor"
+    ]
+  },
+  {
+    "productId": 7,
+    "name": "Tablet Model 7",
+    "category": "Phones",
+    "price": 17653,
+    "stock": 49,
+    "attributes": {
+      "model": "NM-0007",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "tablet"
+    ]
+  },
+  {
+    "productId": 8,
+    "name": "T-Shirt Model 8",
+    "category": "Fashion",
+    "price": 16032,
+    "stock": 5,
+    "attributes": {
+      "model": "NM-0008",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "t-shirt"
+    ]
+  },
+  {
+    "productId": 9,
+    "name": "Fan Model 9",
+    "category": "Home Appliances",
+    "price": 24411,
+    "stock": 12,
+    "attributes": {
+      "model": "NM-0009",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "fan"
+    ]
+  },
+  {
+    "productId": 10,
+    "name": "Wallet Model 10",
+    "category": "Accessories",
+    "price": 16790,
+    "stock": 19,
+    "attributes": {
+      "model": "NM-0010",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "wallet"
+    ]
+  },
+  {
+    "productId": 11,
+    "name": "Keyboard Model 11",
+    "category": "Computing",
+    "price": 30169,
+    "stock": 26,
+    "attributes": {
+      "model": "NM-0011",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "keyboard"
+    ]
+  },
+  {
+    "productId": 12,
+    "name": "Charger Model 12",
+    "category": "Phones",
+    "price": 24548,
+    "stock": 33,
+    "attributes": {
+      "model": "NM-0012",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "charger"
+    ]
+  },
+  {
+    "productId": 13,
+    "name": "Jeans Model 13",
+    "category": "Fashion",
+    "price": 22927,
+    "stock": 40,
+    "attributes": {
+      "model": "NM-0013",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "jeans"
+    ]
+  },
+  {
+    "productId": 14,
+    "name": "Microwave Model 14",
+    "category": "Home Appliances",
+    "price": 31306,
+    "stock": 47,
+    "attributes": {
+      "model": "NM-0014",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "microwave"
+    ]
+  },
+  {
+    "productId": 15,
+    "name": "Belt Model 15",
+    "category": "Accessories",
+    "price": 23685,
+    "stock": 3,
+    "attributes": {
+      "model": "NM-0015",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "belt"
+    ]
+  },
+  {
+    "productId": 16,
+    "name": "Mouse Model 16",
+    "category": "Computing",
+    "price": 37064,
+    "stock": 10,
+    "attributes": {
+      "model": "NM-0016",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "mouse"
+    ]
+  },
+  {
+    "productId": 17,
+    "name": "Power Bank Model 17",
+    "category": "Phones",
+    "price": 31443,
+    "stock": 17,
+    "attributes": {
+      "model": "NM-0017",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "power-bank"
+    ]
+  },
+  {
+    "productId": 18,
+    "name": "Jacket Model 18",
+    "category": "Fashion",
+    "price": 29822,
+    "stock": 24,
+    "attributes": {
+      "model": "NM-0018",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "jacket"
+    ]
+  },
+  {
+    "productId": 19,
+    "name": "Kettle Model 19",
+    "category": "Home Appliances",
+    "price": 38201,
+    "stock": 31,
+    "attributes": {
+      "model": "NM-0019",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "kettle"
+    ]
+  },
+  {
+    "productId": 20,
+    "name": "Sunglasses Model 20",
+    "category": "Accessories",
+    "price": 30580,
+    "stock": 38,
+    "attributes": {
+      "model": "NM-0020",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "sunglasses"
+    ]
+  },
+  {
+    "productId": 21,
+    "name": "SSD Model 21",
+    "category": "Computing",
+    "price": 43959,
+    "stock": 45,
+    "attributes": {
+      "model": "NM-0021",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "ssd"
+    ]
+  },
+  {
+    "productId": 22,
+    "name": "Earphones Model 22",
+    "category": "Phones",
+    "price": 38338,
+    "stock": 1,
+    "attributes": {
+      "model": "NM-0022",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "earphones"
+    ]
+  },
+  {
+    "productId": 23,
+    "name": "Backpack Model 23",
+    "category": "Fashion",
+    "price": 36717,
+    "stock": 8,
+    "attributes": {
+      "model": "NM-0023",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "backpack"
+    ]
+  },
+  {
+    "productId": 24,
+    "name": "Iron Model 24",
+    "category": "Home Appliances",
+    "price": 45096,
+    "stock": 15,
+    "attributes": {
+      "model": "NM-0024",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "iron"
+    ]
+  },
+  {
+    "productId": 25,
+    "name": "Cap Model 25",
+    "category": "Accessories",
+    "price": 37475,
+    "stock": 22,
+    "attributes": {
+      "model": "NM-0025",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "cap"
+    ]
+  },
+  {
+    "productId": 26,
+    "name": "Laptop Model 26",
+    "category": "Computing",
+    "price": 50854,
+    "stock": 29,
+    "attributes": {
+      "model": "NM-0026",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "laptop"
+    ]
+  },
+  {
+    "productId": 27,
+    "name": "Smartphone Model 27",
+    "category": "Phones",
+    "price": 45233,
+    "stock": 36,
+    "attributes": {
+      "model": "NM-0027",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "smartphone"
+    ]
+  },
+  {
+    "productId": 28,
+    "name": "Sneakers Model 28",
+    "category": "Fashion",
+    "price": 43612,
+    "stock": 43,
+    "attributes": {
+      "model": "NM-0028",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "sneakers"
+    ]
+  },
+  {
+    "productId": 29,
+    "name": "Blender Model 29",
+    "category": "Home Appliances",
+    "price": 51991,
+    "stock": 50,
+    "attributes": {
+      "model": "NM-0029",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "blender"
+    ]
+  },
+  {
+    "productId": 30,
+    "name": "Watch Model 30",
+    "category": "Accessories",
+    "price": 44370,
+    "stock": 6,
+    "attributes": {
+      "model": "NM-0030",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "watch"
+    ]
+  },
+  {
+    "productId": 31,
+    "name": "Monitor Model 31",
+    "category": "Computing",
+    "price": 57749,
+    "stock": 13,
+    "attributes": {
+      "model": "NM-0031",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "monitor"
+    ]
+  },
+  {
+    "productId": 32,
+    "name": "Tablet Model 32",
+    "category": "Phones",
+    "price": 52128,
+    "stock": 20,
+    "attributes": {
+      "model": "NM-0032",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "tablet"
+    ]
+  },
+  {
+    "productId": 33,
+    "name": "T-Shirt Model 33",
+    "category": "Fashion",
+    "price": 50507,
+    "stock": 27,
+    "attributes": {
+      "model": "NM-0033",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "t-shirt"
+    ]
+  },
+  {
+    "productId": 34,
+    "name": "Fan Model 34",
+    "category": "Home Appliances",
+    "price": 58886,
+    "stock": 34,
+    "attributes": {
+      "model": "NM-0034",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "fan"
+    ]
+  },
+  {
+    "productId": 35,
+    "name": "Wallet Model 35",
+    "category": "Accessories",
+    "price": 51265,
+    "stock": 41,
+    "attributes": {
+      "model": "NM-0035",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "wallet"
+    ]
+  },
+  {
+    "productId": 36,
+    "name": "Keyboard Model 36",
+    "category": "Computing",
+    "price": 64644,
+    "stock": 48,
+    "attributes": {
+      "model": "NM-0036",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "keyboard"
+    ]
+  },
+  {
+    "productId": 37,
+    "name": "Charger Model 37",
+    "category": "Phones",
+    "price": 59023,
+    "stock": 4,
+    "attributes": {
+      "model": "NM-0037",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "charger"
+    ]
+  },
+  {
+    "productId": 38,
+    "name": "Jeans Model 38",
+    "category": "Fashion",
+    "price": 57402,
+    "stock": 11,
+    "attributes": {
+      "model": "NM-0038",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "jeans"
+    ]
+  },
+  {
+    "productId": 39,
+    "name": "Microwave Model 39",
+    "category": "Home Appliances",
+    "price": 65781,
+    "stock": 18,
+    "attributes": {
+      "model": "NM-0039",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "microwave"
+    ]
+  },
+  {
+    "productId": 40,
+    "name": "Belt Model 40",
+    "category": "Accessories",
+    "price": 58160,
+    "stock": 25,
+    "attributes": {
+      "model": "NM-0040",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "belt"
+    ]
+  },
+  {
+    "productId": 41,
+    "name": "Mouse Model 41",
+    "category": "Computing",
+    "price": 71539,
+    "stock": 32,
+    "attributes": {
+      "model": "NM-0041",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "mouse"
+    ]
+  },
+  {
+    "productId": 42,
+    "name": "Power Bank Model 42",
+    "category": "Phones",
+    "price": 65918,
+    "stock": 39,
+    "attributes": {
+      "model": "NM-0042",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "power-bank"
+    ]
+  },
+  {
+    "productId": 43,
+    "name": "Jacket Model 43",
+    "category": "Fashion",
+    "price": 64297,
+    "stock": 46,
+    "attributes": {
+      "model": "NM-0043",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "jacket"
+    ]
+  },
+  {
+    "productId": 44,
+    "name": "Kettle Model 44",
+    "category": "Home Appliances",
+    "price": 72676,
+    "stock": 2,
+    "attributes": {
+      "model": "NM-0044",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "kettle"
+    ]
+  },
+  {
+    "productId": 45,
+    "name": "Sunglasses Model 45",
+    "category": "Accessories",
+    "price": 65055,
+    "stock": 9,
+    "attributes": {
+      "model": "NM-0045",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "sunglasses"
+    ]
+  },
+  {
+    "productId": 46,
+    "name": "SSD Model 46",
+    "category": "Computing",
+    "price": 78434,
+    "stock": 16,
+    "attributes": {
+      "model": "NM-0046",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "ssd"
+    ]
+  },
+  {
+    "productId": 47,
+    "name": "Earphones Model 47",
+    "category": "Phones",
+    "price": 72813,
+    "stock": 23,
+    "attributes": {
+      "model": "NM-0047",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "earphones"
+    ]
+  },
+  {
+    "productId": 48,
+    "name": "Backpack Model 48",
+    "category": "Fashion",
+    "price": 71192,
+    "stock": 30,
+    "attributes": {
+      "model": "NM-0048",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "backpack"
+    ]
+  },
+  {
+    "productId": 49,
+    "name": "Iron Model 49",
+    "category": "Home Appliances",
+    "price": 79571,
+    "stock": 37,
+    "attributes": {
+      "model": "NM-0049",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "iron"
+    ]
+  },
+  {
+    "productId": 50,
+    "name": "Cap Model 50",
+    "category": "Accessories",
+    "price": 71950,
+    "stock": 44,
+    "attributes": {
+      "model": "NM-0050",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "cap"
+    ]
+  },
+  {
+    "productId": 51,
+    "name": "Laptop Model 51",
+    "category": "Computing",
+    "price": 85329,
+    "stock": 15,
+    "attributes": {
+      "model": "NM-0051",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "laptop"
+    ]
+  },
+  {
+    "productId": 52,
+    "name": "Smartphone Model 52",
+    "category": "Phones",
+    "price": 79708,
+    "stock": 7,
+    "attributes": {
+      "model": "NM-0052",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "smartphone"
+    ]
+  },
+  {
+    "productId": 53,
+    "name": "Sneakers Model 53",
+    "category": "Fashion",
+    "price": 78087,
+    "stock": 14,
+    "attributes": {
+      "model": "NM-0053",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "sneakers"
+    ]
+  },
+  {
+    "productId": 54,
+    "name": "Blender Model 54",
+    "category": "Home Appliances",
+    "price": 86466,
+    "stock": 21,
+    "attributes": {
+      "model": "NM-0054",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "blender"
+    ]
+  },
+  {
+    "productId": 55,
+    "name": "Watch Model 55",
+    "category": "Accessories",
+    "price": 78845,
+    "stock": 28,
+    "attributes": {
+      "model": "NM-0055",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "watch"
+    ]
+  },
+  {
+    "productId": 56,
+    "name": "Monitor Model 56",
+    "category": "Computing",
+    "price": 92224,
+    "stock": 35,
+    "attributes": {
+      "model": "NM-0056",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "monitor"
+    ]
+  },
+  {
+    "productId": 57,
+    "name": "Tablet Model 57",
+    "category": "Phones",
+    "price": 86603,
+    "stock": 42,
+    "attributes": {
+      "model": "NM-0057",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "tablet"
+    ]
+  },
+  {
+    "productId": 58,
+    "name": "T-Shirt Model 58",
+    "category": "Fashion",
+    "price": 84982,
+    "stock": 49,
+    "attributes": {
+      "model": "NM-0058",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "t-shirt"
+    ]
+  },
+  {
+    "productId": 59,
+    "name": "Fan Model 59",
+    "category": "Home Appliances",
+    "price": 93361,
+    "stock": 5,
+    "attributes": {
+      "model": "NM-0059",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "fan"
+    ]
+  },
+  {
+    "productId": 60,
+    "name": "Wallet Model 60",
+    "category": "Accessories",
+    "price": 85740,
+    "stock": 12,
+    "attributes": {
+      "model": "NM-0060",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "wallet"
+    ]
+  },
+  {
+    "productId": 61,
+    "name": "Keyboard Model 61",
+    "category": "Computing",
+    "price": 99119,
+    "stock": 19,
+    "attributes": {
+      "model": "NM-0061",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "keyboard"
+    ]
+  },
+  {
+    "productId": 62,
+    "name": "Charger Model 62",
+    "category": "Phones",
+    "price": 93498,
+    "stock": 26,
+    "attributes": {
+      "model": "NM-0062",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "charger"
+    ]
+  },
+  {
+    "productId": 63,
+    "name": "Jeans Model 63",
+    "category": "Fashion",
+    "price": 91877,
+    "stock": 33,
+    "attributes": {
+      "model": "NM-0063",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "jeans"
+    ]
+  },
+  {
+    "productId": 64,
+    "name": "Microwave Model 64",
+    "category": "Home Appliances",
+    "price": 100256,
+    "stock": 40,
+    "attributes": {
+      "model": "NM-0064",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "microwave"
+    ]
+  },
+  {
+    "productId": 65,
+    "name": "Belt Model 65",
+    "category": "Accessories",
+    "price": 92635,
+    "stock": 47,
+    "attributes": {
+      "model": "NM-0065",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "belt"
+    ]
+  },
+  {
+    "productId": 66,
+    "name": "Mouse Model 66",
+    "category": "Computing",
+    "price": 106014,
+    "stock": 3,
+    "attributes": {
+      "model": "NM-0066",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "mouse"
+    ]
+  },
+  {
+    "productId": 67,
+    "name": "Power Bank Model 67",
+    "category": "Phones",
+    "price": 100393,
+    "stock": 10,
+    "attributes": {
+      "model": "NM-0067",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "power-bank"
+    ]
+  },
+  {
+    "productId": 68,
+    "name": "Jacket Model 68",
+    "category": "Fashion",
+    "price": 98772,
+    "stock": 17,
+    "attributes": {
+      "model": "NM-0068",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "jacket"
+    ]
+  },
+  {
+    "productId": 69,
+    "name": "Kettle Model 69",
+    "category": "Home Appliances",
+    "price": 107151,
+    "stock": 24,
+    "attributes": {
+      "model": "NM-0069",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "kettle"
+    ]
+  },
+  {
+    "productId": 70,
+    "name": "Sunglasses Model 70",
+    "category": "Accessories",
+    "price": 99530,
+    "stock": 31,
+    "attributes": {
+      "model": "NM-0070",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "sunglasses"
+    ]
+  },
+  {
+    "productId": 71,
+    "name": "SSD Model 71",
+    "category": "Computing",
+    "price": 112909,
+    "stock": 38,
+    "attributes": {
+      "model": "NM-0071",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "ssd"
+    ]
+  },
+  {
+    "productId": 72,
+    "name": "Earphones Model 72",
+    "category": "Phones",
+    "price": 107288,
+    "stock": 45,
+    "attributes": {
+      "model": "NM-0072",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "earphones"
+    ]
+  },
+  {
+    "productId": 73,
+    "name": "Backpack Model 73",
+    "category": "Fashion",
+    "price": 5667,
+    "stock": 1,
+    "attributes": {
+      "model": "NM-0073",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "backpack"
+    ]
+  },
+  {
+    "productId": 74,
+    "name": "Iron Model 74",
+    "category": "Home Appliances",
+    "price": 14046,
+    "stock": 8,
+    "attributes": {
+      "model": "NM-0074",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "iron"
+    ]
+  },
+  {
+    "productId": 75,
+    "name": "Cap Model 75",
+    "category": "Accessories",
+    "price": 6425,
+    "stock": 15,
+    "attributes": {
+      "model": "NM-0075",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "cap"
+    ]
+  },
+  {
+    "productId": 76,
+    "name": "Laptop Model 76",
+    "category": "Computing",
+    "price": 19804,
+    "stock": 22,
+    "attributes": {
+      "model": "NM-0076",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "laptop"
+    ]
+  },
+  {
+    "productId": 77,
+    "name": "Smartphone Model 77",
+    "category": "Phones",
+    "price": 14183,
+    "stock": 29,
+    "attributes": {
+      "model": "NM-0077",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "smartphone"
+    ]
+  },
+  {
+    "productId": 78,
+    "name": "Sneakers Model 78",
+    "category": "Fashion",
+    "price": 12562,
+    "stock": 36,
+    "attributes": {
+      "model": "NM-0078",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "sneakers"
+    ]
+  },
+  {
+    "productId": 79,
+    "name": "Blender Model 79",
+    "category": "Home Appliances",
+    "price": 20941,
+    "stock": 43,
+    "attributes": {
+      "model": "NM-0079",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "blender"
+    ]
+  },
+  {
+    "productId": 80,
+    "name": "Watch Model 80",
+    "category": "Accessories",
+    "price": 13320,
+    "stock": 50,
+    "attributes": {
+      "model": "NM-0080",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "watch"
+    ]
+  },
+  {
+    "productId": 81,
+    "name": "Monitor Model 81",
+    "category": "Computing",
+    "price": 26699,
+    "stock": 6,
+    "attributes": {
+      "model": "NM-0081",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "monitor"
+    ]
+  },
+  {
+    "productId": 82,
+    "name": "Tablet Model 82",
+    "category": "Phones",
+    "price": 21078,
+    "stock": 13,
+    "attributes": {
+      "model": "NM-0082",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "tablet"
+    ]
+  },
+  {
+    "productId": 83,
+    "name": "T-Shirt Model 83",
+    "category": "Fashion",
+    "price": 19457,
+    "stock": 20,
+    "attributes": {
+      "model": "NM-0083",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "t-shirt"
+    ]
+  },
+  {
+    "productId": 84,
+    "name": "Fan Model 84",
+    "category": "Home Appliances",
+    "price": 27836,
+    "stock": 27,
+    "attributes": {
+      "model": "NM-0084",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "fan"
+    ]
+  },
+  {
+    "productId": 85,
+    "name": "Wallet Model 85",
+    "category": "Accessories",
+    "price": 20215,
+    "stock": 34,
+    "attributes": {
+      "model": "NM-0085",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "wallet"
+    ]
+  },
+  {
+    "productId": 86,
+    "name": "Keyboard Model 86",
+    "category": "Computing",
+    "price": 33594,
+    "stock": 41,
+    "attributes": {
+      "model": "NM-0086",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "keyboard"
+    ]
+  },
+  {
+    "productId": 87,
+    "name": "Charger Model 87",
+    "category": "Phones",
+    "price": 27973,
+    "stock": 48,
+    "attributes": {
+      "model": "NM-0087",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "charger"
+    ]
+  },
+  {
+    "productId": 88,
+    "name": "Jeans Model 88",
+    "category": "Fashion",
+    "price": 26352,
+    "stock": 4,
+    "attributes": {
+      "model": "NM-0088",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "jeans"
+    ]
+  },
+  {
+    "productId": 89,
+    "name": "Microwave Model 89",
+    "category": "Home Appliances",
+    "price": 34731,
+    "stock": 11,
+    "attributes": {
+      "model": "NM-0089",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "microwave"
+    ]
+  },
+  {
+    "productId": 90,
+    "name": "Belt Model 90",
+    "category": "Accessories",
+    "price": 27110,
+    "stock": 18,
+    "attributes": {
+      "model": "NM-0090",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "belt"
+    ]
+  },
+  {
+    "productId": 91,
+    "name": "Mouse Model 91",
+    "category": "Computing",
+    "price": 40489,
+    "stock": 25,
+    "attributes": {
+      "model": "NM-0091",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "mouse"
+    ]
+  },
+  {
+    "productId": 92,
+    "name": "Power Bank Model 92",
+    "category": "Phones",
+    "price": 34868,
+    "stock": 32,
+    "attributes": {
+      "model": "NM-0092",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "power-bank"
+    ]
+  },
+  {
+    "productId": 93,
+    "name": "Jacket Model 93",
+    "category": "Fashion",
+    "price": 33247,
+    "stock": 39,
+    "attributes": {
+      "model": "NM-0093",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "jacket"
+    ]
+  },
+  {
+    "productId": 94,
+    "name": "Kettle Model 94",
+    "category": "Home Appliances",
+    "price": 41626,
+    "stock": 46,
+    "attributes": {
+      "model": "NM-0094",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "kettle"
+    ]
+  },
+  {
+    "productId": 95,
+    "name": "Sunglasses Model 95",
+    "category": "Accessories",
+    "price": 34005,
+    "stock": 2,
+    "attributes": {
+      "model": "NM-0095",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "sunglasses"
+    ]
+  },
+  {
+    "productId": 96,
+    "name": "SSD Model 96",
+    "category": "Computing",
+    "price": 47384,
+    "stock": 9,
+    "attributes": {
+      "model": "NM-0096",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "ssd"
+    ]
+  },
+  {
+    "productId": 97,
+    "name": "Earphones Model 97",
+    "category": "Phones",
+    "price": 41763,
+    "stock": 16,
+    "attributes": {
+      "model": "NM-0097",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "earphones"
+    ]
+  },
+  {
+    "productId": 98,
+    "name": "Backpack Model 98",
+    "category": "Fashion",
+    "price": 40142,
+    "stock": 23,
+    "attributes": {
+      "model": "NM-0098",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "backpack"
+    ]
+  },
+  {
+    "productId": 99,
+    "name": "Iron Model 99",
+    "category": "Home Appliances",
+    "price": 48521,
+    "stock": 30,
+    "attributes": {
+      "model": "NM-0099",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "iron"
+    ]
+  },
+  {
+    "productId": 100,
+    "name": "Cap Model 100",
+    "category": "Accessories",
+    "price": 40900,
+    "stock": 37,
+    "attributes": {
+      "model": "NM-0100",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "cap"
+    ]
+  },
+  {
+    "productId": 101,
+    "name": "Laptop Model 101",
+    "category": "Computing",
+    "price": 54279,
+    "stock": 44,
+    "attributes": {
+      "model": "NM-0101",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "laptop"
+    ]
+  },
+  {
+    "productId": 102,
+    "name": "Smartphone Model 102",
+    "category": "Phones",
+    "price": 48658,
+    "stock": 0,
+    "attributes": {
+      "model": "NM-0102",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "smartphone"
+    ]
+  },
+  {
+    "productId": 103,
+    "name": "Sneakers Model 103",
+    "category": "Fashion",
+    "price": 47037,
+    "stock": 7,
+    "attributes": {
+      "model": "NM-0103",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "sneakers"
+    ]
+  },
+  {
+    "productId": 104,
+    "name": "Blender Model 104",
+    "category": "Home Appliances",
+    "price": 55416,
+    "stock": 14,
+    "attributes": {
+      "model": "NM-0104",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "blender"
+    ]
+  },
+  {
+    "productId": 105,
+    "name": "Watch Model 105",
+    "category": "Accessories",
+    "price": 47795,
+    "stock": 21,
+    "attributes": {
+      "model": "NM-0105",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "watch"
+    ]
+  },
+  {
+    "productId": 106,
+    "name": "Monitor Model 106",
+    "category": "Computing",
+    "price": 61174,
+    "stock": 28,
+    "attributes": {
+      "model": "NM-0106",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "monitor"
+    ]
+  },
+  {
+    "productId": 107,
+    "name": "Tablet Model 107",
+    "category": "Phones",
+    "price": 55553,
+    "stock": 35,
+    "attributes": {
+      "model": "NM-0107",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "tablet"
+    ]
+  },
+  {
+    "productId": 108,
+    "name": "T-Shirt Model 108",
+    "category": "Fashion",
+    "price": 53932,
+    "stock": 42,
+    "attributes": {
+      "model": "NM-0108",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "t-shirt"
+    ]
+  },
+  {
+    "productId": 109,
+    "name": "Fan Model 109",
+    "category": "Home Appliances",
+    "price": 62311,
+    "stock": 49,
+    "attributes": {
+      "model": "NM-0109",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "fan"
+    ]
+  },
+  {
+    "productId": 110,
+    "name": "Wallet Model 110",
+    "category": "Accessories",
+    "price": 54690,
+    "stock": 5,
+    "attributes": {
+      "model": "NM-0110",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "wallet"
+    ]
+  },
+  {
+    "productId": 111,
+    "name": "Keyboard Model 111",
+    "category": "Computing",
+    "price": 68069,
+    "stock": 12,
+    "attributes": {
+      "model": "NM-0111",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "keyboard"
+    ]
+  },
+  {
+    "productId": 112,
+    "name": "Charger Model 112",
+    "category": "Phones",
+    "price": 62448,
+    "stock": 19,
+    "attributes": {
+      "model": "NM-0112",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "charger"
+    ]
+  },
+  {
+    "productId": 113,
+    "name": "Jeans Model 113",
+    "category": "Fashion",
+    "price": 60827,
+    "stock": 26,
+    "attributes": {
+      "model": "NM-0113",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "jeans"
+    ]
+  },
+  {
+    "productId": 114,
+    "name": "Microwave Model 114",
+    "category": "Home Appliances",
+    "price": 69206,
+    "stock": 33,
+    "attributes": {
+      "model": "NM-0114",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "microwave"
+    ]
+  },
+  {
+    "productId": 115,
+    "name": "Belt Model 115",
+    "category": "Accessories",
+    "price": 61585,
+    "stock": 40,
+    "attributes": {
+      "model": "NM-0115",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "belt"
+    ]
+  },
+  {
+    "productId": 116,
+    "name": "Mouse Model 116",
+    "category": "Computing",
+    "price": 74964,
+    "stock": 47,
+    "attributes": {
+      "model": "NM-0116",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "mouse"
+    ]
+  },
+  {
+    "productId": 117,
+    "name": "Power Bank Model 117",
+    "category": "Phones",
+    "price": 69343,
+    "stock": 3,
+    "attributes": {
+      "model": "NM-0117",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "power-bank"
+    ]
+  },
+  {
+    "productId": 118,
+    "name": "Jacket Model 118",
+    "category": "Fashion",
+    "price": 67722,
+    "stock": 10,
+    "attributes": {
+      "model": "NM-0118",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "jacket"
+    ]
+  },
+  {
+    "productId": 119,
+    "name": "Kettle Model 119",
+    "category": "Home Appliances",
+    "price": 76101,
+    "stock": 17,
+    "attributes": {
+      "model": "NM-0119",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "kettle"
+    ]
+  },
+  {
+    "productId": 120,
+    "name": "Sunglasses Model 120",
+    "category": "Accessories",
+    "price": 68480,
+    "stock": 24,
+    "attributes": {
+      "model": "NM-0120",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "sunglasses"
+    ]
+  },
+  {
+    "productId": 121,
+    "name": "SSD Model 121",
+    "category": "Computing",
+    "price": 81859,
+    "stock": 31,
+    "attributes": {
+      "model": "NM-0121",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "ssd"
+    ]
+  },
+  {
+    "productId": 122,
+    "name": "Earphones Model 122",
+    "category": "Phones",
+    "price": 76238,
+    "stock": 38,
+    "attributes": {
+      "model": "NM-0122",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "earphones"
+    ]
+  },
+  {
+    "productId": 123,
+    "name": "Backpack Model 123",
+    "category": "Fashion",
+    "price": 74617,
+    "stock": 45,
+    "attributes": {
+      "model": "NM-0123",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "backpack"
+    ]
+  },
+  {
+    "productId": 124,
+    "name": "Iron Model 124",
+    "category": "Home Appliances",
+    "price": 82996,
+    "stock": 1,
+    "attributes": {
+      "model": "NM-0124",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "iron"
+    ]
+  },
+  {
+    "productId": 125,
+    "name": "Cap Model 125",
+    "category": "Accessories",
+    "price": 75375,
+    "stock": 8,
+    "attributes": {
+      "model": "NM-0125",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "cap"
+    ]
+  },
+  {
+    "productId": 126,
+    "name": "Laptop Model 126",
+    "category": "Computing",
+    "price": 88754,
+    "stock": 15,
+    "attributes": {
+      "model": "NM-0126",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "laptop"
+    ]
+  },
+  {
+    "productId": 127,
+    "name": "Smartphone Model 127",
+    "category": "Phones",
+    "price": 83133,
+    "stock": 22,
+    "attributes": {
+      "model": "NM-0127",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "smartphone"
+    ]
+  },
+  {
+    "productId": 128,
+    "name": "Sneakers Model 128",
+    "category": "Fashion",
+    "price": 81512,
+    "stock": 29,
+    "attributes": {
+      "model": "NM-0128",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "sneakers"
+    ]
+  },
+  {
+    "productId": 129,
+    "name": "Blender Model 129",
+    "category": "Home Appliances",
+    "price": 89891,
+    "stock": 36,
+    "attributes": {
+      "model": "NM-0129",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "blender"
+    ]
+  },
+  {
+    "productId": 130,
+    "name": "Watch Model 130",
+    "category": "Accessories",
+    "price": 82270,
+    "stock": 43,
+    "attributes": {
+      "model": "NM-0130",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "watch"
+    ]
+  },
+  {
+    "productId": 131,
+    "name": "Monitor Model 131",
+    "category": "Computing",
+    "price": 95649,
+    "stock": 50,
+    "attributes": {
+      "model": "NM-0131",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "monitor"
+    ]
+  },
+  {
+    "productId": 132,
+    "name": "Tablet Model 132",
+    "category": "Phones",
+    "price": 90028,
+    "stock": 6,
+    "attributes": {
+      "model": "NM-0132",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "tablet"
+    ]
+  },
+  {
+    "productId": 133,
+    "name": "T-Shirt Model 133",
+    "category": "Fashion",
+    "price": 88407,
+    "stock": 13,
+    "attributes": {
+      "model": "NM-0133",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "t-shirt"
+    ]
+  },
+  {
+    "productId": 134,
+    "name": "Fan Model 134",
+    "category": "Home Appliances",
+    "price": 96786,
+    "stock": 20,
+    "attributes": {
+      "model": "NM-0134",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "fan"
+    ]
+  },
+  {
+    "productId": 135,
+    "name": "Wallet Model 135",
+    "category": "Accessories",
+    "price": 89165,
+    "stock": 27,
+    "attributes": {
+      "model": "NM-0135",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "wallet"
+    ]
+  },
+  {
+    "productId": 136,
+    "name": "Keyboard Model 136",
+    "category": "Computing",
+    "price": 102544,
+    "stock": 34,
+    "attributes": {
+      "model": "NM-0136",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "keyboard"
+    ]
+  },
+  {
+    "productId": 137,
+    "name": "Charger Model 137",
+    "category": "Phones",
+    "price": 96923,
+    "stock": 41,
+    "attributes": {
+      "model": "NM-0137",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "charger"
+    ]
+  },
+  {
+    "productId": 138,
+    "name": "Jeans Model 138",
+    "category": "Fashion",
+    "price": 95302,
+    "stock": 48,
+    "attributes": {
+      "model": "NM-0138",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "jeans"
+    ]
+  },
+  {
+    "productId": 139,
+    "name": "Microwave Model 139",
+    "category": "Home Appliances",
+    "price": 103681,
+    "stock": 4,
+    "attributes": {
+      "model": "NM-0139",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "microwave"
+    ]
+  },
+  {
+    "productId": 140,
+    "name": "Belt Model 140",
+    "category": "Accessories",
+    "price": 96060,
+    "stock": 11,
+    "attributes": {
+      "model": "NM-0140",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "belt"
+    ]
+  },
+  {
+    "productId": 141,
+    "name": "Mouse Model 141",
+    "category": "Computing",
+    "price": 109439,
+    "stock": 18,
+    "attributes": {
+      "model": "NM-0141",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "mouse"
+    ]
+  },
+  {
+    "productId": 142,
+    "name": "Power Bank Model 142",
+    "category": "Phones",
+    "price": 103818,
+    "stock": 25,
+    "attributes": {
+      "model": "NM-0142",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "power-bank"
+    ]
+  },
+  {
+    "productId": 143,
+    "name": "Jacket Model 143",
+    "category": "Fashion",
+    "price": 102197,
+    "stock": 32,
+    "attributes": {
+      "model": "NM-0143",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "jacket"
+    ]
+  },
+  {
+    "productId": 144,
+    "name": "Kettle Model 144",
+    "category": "Home Appliances",
+    "price": 110576,
+    "stock": 39,
+    "attributes": {
+      "model": "NM-0144",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "kettle"
+    ]
+  },
+  {
+    "productId": 145,
+    "name": "Sunglasses Model 145",
+    "category": "Accessories",
+    "price": 102955,
+    "stock": 46,
+    "attributes": {
+      "model": "NM-0145",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "sunglasses"
+    ]
+  },
+  {
+    "productId": 146,
+    "name": "SSD Model 146",
+    "category": "Computing",
+    "price": 16334,
+    "stock": 2,
+    "attributes": {
+      "model": "NM-0146",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "ssd"
+    ]
+  },
+  {
+    "productId": 147,
+    "name": "Earphones Model 147",
+    "category": "Phones",
+    "price": 10713,
+    "stock": 9,
+    "attributes": {
+      "model": "NM-0147",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "earphones"
+    ]
+  },
+  {
+    "productId": 148,
+    "name": "Backpack Model 148",
+    "category": "Fashion",
+    "price": 9092,
+    "stock": 16,
+    "attributes": {
+      "model": "NM-0148",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "backpack"
+    ]
+  },
+  {
+    "productId": 149,
+    "name": "Iron Model 149",
+    "category": "Home Appliances",
+    "price": 17471,
+    "stock": 23,
+    "attributes": {
+      "model": "NM-0149",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "iron"
+    ]
+  },
+  {
+    "productId": 150,
+    "name": "Cap Model 150",
+    "category": "Accessories",
+    "price": 9850,
+    "stock": 30,
+    "attributes": {
+      "model": "NM-0150",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "cap"
+    ]
+  },
+  {
+    "productId": 151,
+    "name": "Laptop Model 151",
+    "category": "Computing",
+    "price": 23229,
+    "stock": 37,
+    "attributes": {
+      "model": "NM-0151",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "laptop"
+    ]
+  },
+  {
+    "productId": 152,
+    "name": "Smartphone Model 152",
+    "category": "Phones",
+    "price": 17608,
+    "stock": 44,
+    "attributes": {
+      "model": "NM-0152",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "smartphone"
+    ]
+  },
+  {
+    "productId": 153,
+    "name": "Sneakers Model 153",
+    "category": "Fashion",
+    "price": 15987,
+    "stock": 0,
+    "attributes": {
+      "model": "NM-0153",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "sneakers"
+    ]
+  },
+  {
+    "productId": 154,
+    "name": "Blender Model 154",
+    "category": "Home Appliances",
+    "price": 24366,
+    "stock": 7,
+    "attributes": {
+      "model": "NM-0154",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "blender"
+    ]
+  },
+  {
+    "productId": 155,
+    "name": "Watch Model 155",
+    "category": "Accessories",
+    "price": 16745,
+    "stock": 14,
+    "attributes": {
+      "model": "NM-0155",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "watch"
+    ]
+  },
+  {
+    "productId": 156,
+    "name": "Monitor Model 156",
+    "category": "Computing",
+    "price": 30124,
+    "stock": 21,
+    "attributes": {
+      "model": "NM-0156",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "monitor"
+    ]
+  },
+  {
+    "productId": 157,
+    "name": "Tablet Model 157",
+    "category": "Phones",
+    "price": 24503,
+    "stock": 28,
+    "attributes": {
+      "model": "NM-0157",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "tablet"
+    ]
+  },
+  {
+    "productId": 158,
+    "name": "T-Shirt Model 158",
+    "category": "Fashion",
+    "price": 22882,
+    "stock": 35,
+    "attributes": {
+      "model": "NM-0158",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "t-shirt"
+    ]
+  },
+  {
+    "productId": 159,
+    "name": "Fan Model 159",
+    "category": "Home Appliances",
+    "price": 31261,
+    "stock": 42,
+    "attributes": {
+      "model": "NM-0159",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "fan"
+    ]
+  },
+  {
+    "productId": 160,
+    "name": "Wallet Model 160",
+    "category": "Accessories",
+    "price": 23640,
+    "stock": 49,
+    "attributes": {
+      "model": "NM-0160",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "wallet"
+    ]
+  },
+  {
+    "productId": 161,
+    "name": "Keyboard Model 161",
+    "category": "Computing",
+    "price": 37019,
+    "stock": 5,
+    "attributes": {
+      "model": "NM-0161",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "keyboard"
+    ]
+  },
+  {
+    "productId": 162,
+    "name": "Charger Model 162",
+    "category": "Phones",
+    "price": 31398,
+    "stock": 12,
+    "attributes": {
+      "model": "NM-0162",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "charger"
+    ]
+  },
+  {
+    "productId": 163,
+    "name": "Jeans Model 163",
+    "category": "Fashion",
+    "price": 29777,
+    "stock": 19,
+    "attributes": {
+      "model": "NM-0163",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "jeans"
+    ]
+  },
+  {
+    "productId": 164,
+    "name": "Microwave Model 164",
+    "category": "Home Appliances",
+    "price": 38156,
+    "stock": 26,
+    "attributes": {
+      "model": "NM-0164",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "microwave"
+    ]
+  },
+  {
+    "productId": 165,
+    "name": "Belt Model 165",
+    "category": "Accessories",
+    "price": 30535,
+    "stock": 33,
+    "attributes": {
+      "model": "NM-0165",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "belt"
+    ]
+  },
+  {
+    "productId": 166,
+    "name": "Mouse Model 166",
+    "category": "Computing",
+    "price": 43914,
+    "stock": 40,
+    "attributes": {
+      "model": "NM-0166",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "mouse"
+    ]
+  },
+  {
+    "productId": 167,
+    "name": "Power Bank Model 167",
+    "category": "Phones",
+    "price": 38293,
+    "stock": 47,
+    "attributes": {
+      "model": "NM-0167",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "power-bank"
+    ]
+  },
+  {
+    "productId": 168,
+    "name": "Jacket Model 168",
+    "category": "Fashion",
+    "price": 36672,
+    "stock": 3,
+    "attributes": {
+      "model": "NM-0168",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "jacket"
+    ]
+  },
+  {
+    "productId": 169,
+    "name": "Kettle Model 169",
+    "category": "Home Appliances",
+    "price": 45051,
+    "stock": 10,
+    "attributes": {
+      "model": "NM-0169",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "kettle"
+    ]
+  },
+  {
+    "productId": 170,
+    "name": "Sunglasses Model 170",
+    "category": "Accessories",
+    "price": 37430,
+    "stock": 17,
+    "attributes": {
+      "model": "NM-0170",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "sunglasses"
+    ]
+  },
+  {
+    "productId": 171,
+    "name": "SSD Model 171",
+    "category": "Computing",
+    "price": 50809,
+    "stock": 24,
+    "attributes": {
+      "model": "NM-0171",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "ssd"
+    ]
+  },
+  {
+    "productId": 172,
+    "name": "Earphones Model 172",
+    "category": "Phones",
+    "price": 45188,
+    "stock": 31,
+    "attributes": {
+      "model": "NM-0172",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "earphones"
+    ]
+  },
+  {
+    "productId": 173,
+    "name": "Backpack Model 173",
+    "category": "Fashion",
+    "price": 43567,
+    "stock": 38,
+    "attributes": {
+      "model": "NM-0173",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "backpack"
+    ]
+  },
+  {
+    "productId": 174,
+    "name": "Iron Model 174",
+    "category": "Home Appliances",
+    "price": 51946,
+    "stock": 45,
+    "attributes": {
+      "model": "NM-0174",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "iron"
+    ]
+  },
+  {
+    "productId": 175,
+    "name": "Cap Model 175",
+    "category": "Accessories",
+    "price": 44325,
+    "stock": 1,
+    "attributes": {
+      "model": "NM-0175",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "cap"
+    ]
+  },
+  {
+    "productId": 176,
+    "name": "Laptop Model 176",
+    "category": "Computing",
+    "price": 57704,
+    "stock": 8,
+    "attributes": {
+      "model": "NM-0176",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "laptop"
+    ]
+  },
+  {
+    "productId": 177,
+    "name": "Smartphone Model 177",
+    "category": "Phones",
+    "price": 52083,
+    "stock": 15,
+    "attributes": {
+      "model": "NM-0177",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "smartphone"
+    ]
+  },
+  {
+    "productId": 178,
+    "name": "Sneakers Model 178",
+    "category": "Fashion",
+    "price": 50462,
+    "stock": 22,
+    "attributes": {
+      "model": "NM-0178",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "sneakers"
+    ]
+  },
+  {
+    "productId": 179,
+    "name": "Blender Model 179",
+    "category": "Home Appliances",
+    "price": 58841,
+    "stock": 29,
+    "attributes": {
+      "model": "NM-0179",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "blender"
+    ]
+  },
+  {
+    "productId": 180,
+    "name": "Watch Model 180",
+    "category": "Accessories",
+    "price": 51220,
+    "stock": 36,
+    "attributes": {
+      "model": "NM-0180",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "watch"
+    ]
+  },
+  {
+    "productId": 181,
+    "name": "Monitor Model 181",
+    "category": "Computing",
+    "price": 64599,
+    "stock": 43,
+    "attributes": {
+      "model": "NM-0181",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "monitor"
+    ]
+  },
+  {
+    "productId": 182,
+    "name": "Tablet Model 182",
+    "category": "Phones",
+    "price": 58978,
+    "stock": 50,
+    "attributes": {
+      "model": "NM-0182",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "tablet"
+    ]
+  },
+  {
+    "productId": 183,
+    "name": "T-Shirt Model 183",
+    "category": "Fashion",
+    "price": 57357,
+    "stock": 6,
+    "attributes": {
+      "model": "NM-0183",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "t-shirt"
+    ]
+  },
+  {
+    "productId": 184,
+    "name": "Fan Model 184",
+    "category": "Home Appliances",
+    "price": 65736,
+    "stock": 13,
+    "attributes": {
+      "model": "NM-0184",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "fan"
+    ]
+  },
+  {
+    "productId": 185,
+    "name": "Wallet Model 185",
+    "category": "Accessories",
+    "price": 58115,
+    "stock": 20,
+    "attributes": {
+      "model": "NM-0185",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "wallet"
+    ]
+  },
+  {
+    "productId": 186,
+    "name": "Keyboard Model 186",
+    "category": "Computing",
+    "price": 71494,
+    "stock": 27,
+    "attributes": {
+      "model": "NM-0186",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "keyboard"
+    ]
+  },
+  {
+    "productId": 187,
+    "name": "Charger Model 187",
+    "category": "Phones",
+    "price": 65873,
+    "stock": 34,
+    "attributes": {
+      "model": "NM-0187",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "charger"
+    ]
+  },
+  {
+    "productId": 188,
+    "name": "Jeans Model 188",
+    "category": "Fashion",
+    "price": 64252,
+    "stock": 41,
+    "attributes": {
+      "model": "NM-0188",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "jeans"
+    ]
+  },
+  {
+    "productId": 189,
+    "name": "Microwave Model 189",
+    "category": "Home Appliances",
+    "price": 72631,
+    "stock": 48,
+    "attributes": {
+      "model": "NM-0189",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "microwave"
+    ]
+  },
+  {
+    "productId": 190,
+    "name": "Belt Model 190",
+    "category": "Accessories",
+    "price": 65010,
+    "stock": 4,
+    "attributes": {
+      "model": "NM-0190",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "belt"
+    ]
+  },
+  {
+    "productId": 191,
+    "name": "Mouse Model 191",
+    "category": "Computing",
+    "price": 78389,
+    "stock": 11,
+    "attributes": {
+      "model": "NM-0191",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "computing",
+      "mouse"
+    ]
+  },
+  {
+    "productId": 192,
+    "name": "Power Bank Model 192",
+    "category": "Phones",
+    "price": 72768,
+    "stock": 18,
+    "attributes": {
+      "model": "NM-0192",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "phones",
+      "power-bank"
+    ]
+  },
+  {
+    "productId": 193,
+    "name": "Jacket Model 193",
+    "category": "Fashion",
+    "price": 71147,
+    "stock": 25,
+    "attributes": {
+      "model": "NM-0193",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "fashion",
+      "jacket"
+    ]
+  },
+  {
+    "productId": 194,
+    "name": "Kettle Model 194",
+    "category": "Home Appliances",
+    "price": 79526,
+    "stock": 32,
+    "attributes": {
+      "model": "NM-0194",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "home appliances",
+      "kettle"
+    ]
+  },
+  {
+    "productId": 195,
+    "name": "Sunglasses Model 195",
+    "category": "Accessories",
+    "price": 71905,
+    "stock": 39,
+    "attributes": {
+      "model": "NM-0195",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "accessories",
+      "sunglasses"
+    ]
+  },
+  {
+    "productId": 196,
+    "name": "SSD Model 196",
+    "category": "Computing",
+    "price": 85284,
+    "stock": 46,
+    "attributes": {
+      "model": "NM-0196",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "computing",
+      "ssd"
+    ]
+  },
+  {
+    "productId": 197,
+    "name": "Earphones Model 197",
+    "category": "Phones",
+    "price": 79663,
+    "stock": 2,
+    "attributes": {
+      "model": "NM-0197",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "phones",
+      "earphones"
+    ]
+  },
+  {
+    "productId": 198,
+    "name": "Backpack Model 198",
+    "category": "Fashion",
+    "price": 78042,
+    "stock": 9,
+    "attributes": {
+      "model": "NM-0198",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "fashion",
+      "backpack"
+    ]
+  },
+  {
+    "productId": 199,
+    "name": "Iron Model 199",
+    "category": "Home Appliances",
+    "price": 86421,
+    "stock": 16,
+    "attributes": {
+      "model": "NM-0199",
+      "warranty": "6 months"
+    },
+    "tags": [
+      "home appliances",
+      "iron"
+    ]
+  },
+  {
+    "productId": 200,
+    "name": "Cap Model 200",
+    "category": "Accessories",
+    "price": 78800,
+    "stock": 23,
+    "attributes": {
+      "model": "NM-0200",
+      "warranty": "12 months"
+    },
+    "tags": [
+      "accessories",
+      "cap"
+    ]
+  }
+]
